@@ -3,8 +3,13 @@ function bisiesto(n) {
   {
     return "True";
 
+  }else if(n%100===0)
+  {
+    return "False";
   }
-  return "False";
+  else{
+    return "False";
+  }
   }
  
   

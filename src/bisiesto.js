@@ -6,6 +6,9 @@ function bisiesto(n) {
   }else if(n%100===0)
   {
     return "False";
+  }else if(n%4===0)
+  {
+    return "True";
   }
   else{
     return "False";

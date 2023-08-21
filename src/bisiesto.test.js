@@ -5,3 +5,8 @@ describe("El anio 2000 es un anio bisiesto", () => {
       expect(bisiesto(2000)).toEqual("True");
     });
   });
+  describe("El anio 2001 no es un anio bisiesto", () => {
+    it("No es un anio bisiesto", () => {
+      expect(bisiesto(2001)).toEqual("False");
+    });
+  });
